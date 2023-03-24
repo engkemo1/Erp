@@ -1,0 +1,110 @@
+name: firstprojects
+description: A new Flutter project.
+
+
+publish_to: 'none'
+# Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.17.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  google_fonts: ^3.0.1
+  get: ^4.6.5
+  flutter_native_splash: ^2.2.9
+  cupertino_icons: ^1.0.2
+  animated_splash_screen: ^1.3.0
+  http: ^0.13.5
+  crypto: ^3.0.2
+  font_awesome_flutter: ^10.4.0
+  percent_indicator: ^4.2.2
+  flutter_gradient_colors: ^2.1.1
+  google_maps_flutter:  ^2.2.3
+  modal_bottom_sheet: ^2.1.2
+  get_storage: ^2.0.3
+  provider: ^6.0.5
+  intl: ^0.17.0
+  image_picker: ^0.8.6
+  location: ^4.4.0
+  url_launcher:
+  loader_overlay: ^2.1.0
+  geolocator:
+  geocoding: ^2.0.5
+  flutter_holo_date_picker: ^1.1.0
+  flutter_screenutil: ^5.5.4
+  permission_handler: ^10.2.0
+  file_picker:
+  flutter_svg: ^1.1.6
+  awesome_dialog:
+  introduction_screen: ^3.1.1
+  firebase_core: ^2.3.0
+  firebase_messaging:
+  cloud_firestore:
+  tutorial_coach_mark: ^1.2.4
+  package_info_plus: 
+  flutter_background_service: ^2.4.5
+  flutter_isolate: ^2.0.4
+  pdf: ^3.8.4
+  path_provider: ^2.0.11
+  open_file: ^3.2.1
+  flutter_offline: ^2.1.0
+  flutter_sms: ^2.3.3
+  flutter_countdown_timer: ^4.1.0
+  stop_watch_timer: ^2.0.0
+  workmanager: ^0.5.1
+  background_fetch: ^1.1.5
+  photo_view: ^0.14.0
+  flutter_bloc: ^8.1.2
+  syncfusion_flutter_pdf: ^20.4.52
+  onesignal_flutter: ^3.5.1
+  pull_to_refresh: ^2.0.0
+  
+
+
+
+
+flutter_native_splash:
+  color:"#42a5f5"
+  background_image:assets/images/Waleterp.png
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+
+  uses-material-design: true
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: IBM Plex Sans Arabic
+      fonts:
+        - asset: assets/fonts/IBMPlexSansArabic-Bold.ttf
+        - asset: assets/fonts/IBMPlexSansArabic-ExtraLight.ttf
+        - asset: assets/fonts/IBMPlexSansArabic-Light.ttf
+        - asset: assets/fonts/IBMPlexSansArabic-Medium.ttf
+        - asset: assets/fonts/IBMPlexSansArabic-Regular.ttf
+        - asset: assets/fonts/IBMPlexSansArabic-SemiBold.ttf
+        - asset: assets/fonts/IBMPlexSansArabic-Thin.ttf
+
+
+
+
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

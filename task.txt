@@ -1,0 +1,18 @@
+Clean the customers page
+Make customer on ONE model.
+Use the default stream builder.
+Remove Get.
+
+
+
+-------
+Get is only for storage and dailog.
+-------
+
+
+
+
+
+  Get.offAll ??
+
+
